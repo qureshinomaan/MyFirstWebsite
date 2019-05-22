@@ -1,0 +1,326 @@
+@import 'https://fonts.googleapis.com/css?family=Baloo+Paaji';
+
+@font-face {
+    font-family: KrutiDev;
+    src: url(path/to/kruti_dev.woff);
+}
+
+
+@keyframes welenter{
+    0%{
+        opacity:0.0;}
+    100%{
+        opacity:;}
+}
+
+@keyframes typing{
+    from{width:0}
+    to{width:100%}
+}
+
+@keyframes getout{
+    0%{transform:rotate3d(0,0,0,0deg)}
+    100%{transform: rotate3d(0,0,0,90deg)}
+}
+
+@keyframes enlarge{
+    0%{transform: scale(1)}
+    30%{transform: scale(1.2)}
+    45%{transform:scale(0.85)}
+    65%{transform:scale(1.1)}
+    80%{transform:scale(0.9)}
+    90%{transform:scale(1.01)}
+    100%{transform:scale(1.0)}
+}
+
+
+@keyframes changing_shadow{
+    0%{text-shadow:1vw 1vh red}
+    20%{text-shadow:1vw 1vh violet}
+    45%{text-shadow:1vw 1vh orange}
+    65%{text-shadow:1vw 1vh blue}
+    80%{text-shadow:1vw 1vh brown}
+    100%{text-shadow:1vw 1vh red}
+}
+
+*{
+    margin: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#myVideo {
+  position:fixed;
+  z-index: -1;
+  object-fit: cover;
+  height: 100%;
+  min-width: 110vw; 
+  min-height: 110vh;
+}
+
+#content {
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    height: 100%;
+    background-image:url('../images/giphy.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.cont{
+    
+}
+/*Contact begins here */
+/*Contact begins here */
+/*Contact begins here */
+/*Contact begins here */
+.logo{
+    width:33%;
+    height:80%;
+    object-fit: contain;
+    float:left;
+}
+
+.contact{
+    margin-top: 10vh;
+    background-color: black;
+    object-position: center;
+    margin-left:9vw;
+    width:80vw;
+    height:20vh;
+}
+
+
+#quote{
+    object-position: center;
+    text-align: center;
+    font-size: 8vmin;
+    color:azure;
+    margin-top: 5vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    background: rgba(200,200,200,0.4);
+    text-shadow:0.2vw 0.2vh white;
+    border-style: double solid;
+    border-color: gray;
+    border-width: 10px;
+}
+
+#conback{
+    background: black;
+    width:100vw;
+    height:100vh;
+}
+
+
+
+/*Contact ends here */
+/*Contact ends here */
+/*Contact ends here */
+/*Contact ends here */
+
+
+/*assignment starts here */
+/*assignment starts here */
+/*assignment starts here */
+/*assignment starts here */
+.inter2{
+    background-color: brown;
+    height: auto;
+    width:100vw;
+}
+
+#bt{
+    position:relative;
+    width:10vw;
+    height:5vw;
+    left:43%;
+    font-family: cursive;
+    font-size:2vh;
+    background-color:lightgrey;
+    opacity:0.9;
+    box-shadow: 1000px;
+    border-style:none;
+    border-width:thick;
+    border-radius: 10px;
+}
+
+#only_table{
+    position: static;
+    margin-top:10%;
+    background-color: rgba(194, 178, 128,0.5);
+    text-align: center;
+    border-style:ridge;
+    font-size:4vh;
+}
+
+td, th {
+    width:50%;
+    height:100%;
+    white-space: nowrap;
+    border: dotted 1px black;
+}
+
+
+#form{
+  margin: 0 auto;
+  margin-top:10vh;
+  width: 40vw;
+  color:aqua;
+  background-color: rgba(0,0,0,0.5);
+  font-family:'baloo paaji';
+  padding-right: 100px;
+  font-size: 2rem;
+  font-style: italic;
+  /* To see the outline of the form */
+  padding: 10px;
+  border: 2px solid #DDC;
+    
+}
+
+.opt{
+    border-style: groove;
+    font-size: 2.5vw;
+    background-color: white;
+    box-shadow: 1px 1px red;
+}
+
+.opt:hover{
+    animation-name:none;
+    animation-duration:1s;
+}
+
+#select{
+    font-size:3vmin;
+}
+
+/*assignment ends here */
+/*assignment ends here */
+/*assignment ends here */
+/*assignment ends here */
+/*assignment ends here */
+
+/*The interest page css starts here */
+/*The interest page css starts here */
+/*The interest page css starts here */
+/*The interest page css starts here */
+/*The interest page css starts here */
+
+#inter{
+    height: 100%;
+    width: 100%;
+    overflow:hidden;
+    background-image:url('../images/history.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.mySlides {
+    display: none;
+    width:100%;
+    height:100%;
+    margin-left:15vw;
+    margin-top: 20vh; 
+    border-style: double;
+    border-color: cyan;
+    border-width: 10px;
+    object-fit: fill;
+}
+
+#history{
+    color:black;
+    font-size:5rem;
+    text-align:center;
+    font-family: 'Baloo Paaji';
+    margin-top:5vw;
+}
+
+
+
+
+/*The interest page css ends here */
+/*The interest page css ends here */
+/*The interest page css ends here */
+/*The interest page css ends here */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0%;
+  overflow: hidden;
+  background-color: rgba(220,220,220,0.5);
+  font-family: 'Baloo Paaji', cursive;
+  font-size: 1rem;
+    position:relative;
+}
+
+li {
+      
+  float: left;
+}
+
+li a {
+  position:relative;
+  overflow:auto;
+  white-space: nowrap;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+ /*background-color: rgba(0,0,0,0.9);*/
+  animation-name: enlarge;
+  animation-duration:1s;
+}
+
+.active {
+  background-color:  ;
+}
+
+#welcome{
+    font-family: 'Baloo Paaji';
+    font-size: 20vmin;
+    overflow: hidden;
+    margin-top:20vh;
+    margin-bottom: 10vh;
+    text-shadow: 1vw 1vh white;
+    text-align: center;
+    color:red;
+    animation-name:welenter;
+    animation-duration:3s;
+}
+
+#welcome : hover{
+    animation-name: enlarge;
+    animation-duration:3s;
+}
+
+#nq{
+    font-family: 'Baloo Paaji', cursive;
+    font-size: 10vmin;
+    color:coral;
+    top:0vh;
+    text-shadow: 0.5vw 0.5vw black;
+    margin-top:-15vh;
+    text-align: center;
+    animation-name: welenter;
+    animation-duration:3s;
+}
+
+
+
+
+
